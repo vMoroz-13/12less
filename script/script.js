@@ -25,9 +25,8 @@ const appDateToLocalSt = function(){
      const id = itemParent.id;
      const text =item.textContent;
      console.log(id);
-     
      todoData.splice(todoData.indexOf(text), 1);
-     
+   
      itemParent.removeChild(item);
      appDateToLocalSt();
  };
